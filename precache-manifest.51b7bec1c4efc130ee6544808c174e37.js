@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/css/1.d2eb0553.chunk.css"
   },
   {
-    "revision": "17c8854590e7327ac38d91b23e07d912",
+    "revision": "afd18db8047be21f2ec85c754181e6e4",
     "url": "/paper-dashboard-react/index.html"
   }
 ];
