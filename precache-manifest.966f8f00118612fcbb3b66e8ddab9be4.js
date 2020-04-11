@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/joe-gardner-2.76ff47ae.jpg"
   },
   {
-    "revision": "a684c69dc437ea445c8c",
-    "url": "/paper-dashboard-react/static/css/main.adbbf863.chunk.css"
+    "revision": "d284a19cfd576331e21f",
+    "url": "/paper-dashboard-react/static/css/main.4ab186a6.chunk.css"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",
     "url": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf"
   },
   {
-    "revision": "93480b2b81802d80ce1f",
-    "url": "/paper-dashboard-react/static/js/1.93480b2b.chunk.js"
+    "revision": "b12b297da5ea03bcedc9",
+    "url": "/paper-dashboard-react/static/js/1.b12b297d.chunk.js"
   },
   {
     "revision": "220b397342ef3d59494d",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
   },
   {
-    "revision": "a684c69dc437ea445c8c",
-    "url": "/paper-dashboard-react/static/js/main.a684c69d.chunk.js"
+    "revision": "d284a19cfd576331e21f",
+    "url": "/paper-dashboard-react/static/js/main.d284a19c.chunk.js"
   },
   {
     "revision": "bb4b9ac9fd07e48f86c719495b65341c",
@@ -48,19 +48,19 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
-    "revision": "6836b93bf1af0b571928d98458a68445",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.6836b93b.woff"
-  },
-  {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
-    "revision": "93480b2b81802d80ce1f",
-    "url": "/paper-dashboard-react/static/css/1.d2eb0553.chunk.css"
+    "revision": "6836b93bf1af0b571928d98458a68445",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.6836b93b.woff"
   },
   {
-    "revision": "afd18db8047be21f2ec85c754181e6e4",
+    "revision": "b12b297da5ea03bcedc9",
+    "url": "/paper-dashboard-react/static/css/1.7326ab4c.chunk.css"
+  },
+  {
+    "revision": "7a2e2fe74a31476b9650728a6bf46093",
     "url": "/paper-dashboard-react/index.html"
   }
 ];
