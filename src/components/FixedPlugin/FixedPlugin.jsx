@@ -2,6 +2,10 @@ import React, { Component } from "react";
 
 import Button from "components/CustomButton/CustomButton.jsx";
 
+import { connect } from "react-redux";
+import setBgAction from "actions/setBgAction";
+import setColorAction from "actions/setColorAction";
+
 class FixedPlugin extends Component {
   constructor(props) {
     super(props);
@@ -36,7 +40,8 @@ class FixedPlugin extends Component {
                   }
                   data-color="black"
                   onClick={() => {
-                    this.props.handleBgClick("black");
+                    this.props.setBgAction("black");
+                    // this.props.handleBgClick("black");
                   }}
                 />
                 <span
@@ -47,7 +52,8 @@ class FixedPlugin extends Component {
                   }
                   data-color="white"
                   onClick={() => {
-                    this.props.handleBgClick("white");
+                    this.props.setBgAction("white");
+                    // this.props.handleBgClick("white");
                   }}
                 />
               </div>
@@ -63,7 +69,8 @@ class FixedPlugin extends Component {
                   }
                   data-color="primary"
                   onClick={() => {
-                    this.props.handleActiveClick("primary");
+                    // this.props.handleActiveClick("primary");
+                    this.props.setColorAction("primary");
                   }}
                 />
                 <span
@@ -74,7 +81,7 @@ class FixedPlugin extends Component {
                   }
                   data-color="info"
                   onClick={() => {
-                    this.props.handleActiveClick("info");
+                    this.props.setColorAction("info");
                   }}
                 />
                 <span
@@ -85,7 +92,7 @@ class FixedPlugin extends Component {
                   }
                   data-color="success"
                   onClick={() => {
-                    this.props.handleActiveClick("success");
+                    this.props.setColorAction("success");
                   }}
                 />
                 <span
@@ -96,7 +103,7 @@ class FixedPlugin extends Component {
                   }
                   data-color="warning"
                   onClick={() => {
-                    this.props.handleActiveClick("warning");
+                    this.props.setColorAction("warning");
                   }}
                 />
                 <span
@@ -107,7 +114,7 @@ class FixedPlugin extends Component {
                   }
                   data-color="danger"
                   onClick={() => {
-                    this.props.handleActiveClick("danger");
+                    this.props.setColorAction("danger");
                   }}
                 />
               </div>
@@ -152,4 +159,14 @@ class FixedPlugin extends Component {
   }
 }
 
-export default FixedPlugin;
+const mapStateToProps = state => ({
+  ...state
+});
+
+const mapDispatchToProps = dispatch => ({
+  setBgAction: (payload) => dispatch(setBgAction(payload)),
+  setColorAction: (payload) => dispatch(setColorAction(payload))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(FixedPlugin);
+// export default FixedPlugin;
